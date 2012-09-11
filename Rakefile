@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "css-star-ratings"
   gem.homepage = "http://github.com/kristianmandrup/css-star-ratings"
   gem.license = "MIT"
-  gem.summary = %Q{Simple CSS based Star rating implementations}
-  gem.description = %Q{Add CSS star ratings to your rails app}
+  gem.summary = %Q{CSS based Star rating implementations for Rails asset pipeline}
+  gem.description = %Q{Add CSS star ratings to your Rails app}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile
