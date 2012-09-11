@@ -1,0 +1,39 @@
+/*
+  Ratings Stars
+  (with as little code as possible)
+*/
+.rating {
+  direction: rtl;
+  text-align: center;
+}
+
+.rating a {
+  display: inline-block;
+  position: relative;
+  font-size: 1.5em;
+  width: 1.1em;
+  text-decoration: none;
+  color: grey;
+}
+.rating a:hover,
+.rating a:hover ~ a {
+  color: transparent;
+}
+.rating a:hover:before,
+.rating a:hover ~ a:before {
+   content: "\2605";
+   font-size: 1.2em;
+   position: absolute;
+   left: 0;
+   margin-top: -25%;
+   margin-left: -10%;
+   color: gold;
+}
+
+.rating a:active:before,
+.rating a:active ~ a:before {
+  color: red;
+}
+
+
+body { padding: 100px; }

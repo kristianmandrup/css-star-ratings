@@ -1,6 +1,14 @@
 = css-star-ratings
 
-Description goes here.
+== Assets
+
+CSS assets
+
+cool-stars
+simple-stars
+point-stars
+
+See the spec dir for usage example of each type of CSS rating. Based on a CSS-tricks article ;)
 
 == Contributing to css-star-ratings
  
